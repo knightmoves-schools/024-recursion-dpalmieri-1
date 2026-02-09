@@ -7,11 +7,12 @@ public class ToDo
         Count++;
         if(todos.Length > Count){
             todos[Count] = "done - " + todos[Count];
-            return MarkAsDone(todos);
+            return MarkAsDone(todos[Count]);
         } else {
             return todos;
         }
     }
 }
+
 
 
